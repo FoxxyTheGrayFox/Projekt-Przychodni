@@ -1,0 +1,80 @@
+{
+  "Pacjenci": [
+    {
+      "Imie": "Jan",
+      "Nazwisko": "Kowalski",
+      "DataUrodzenia": "2001-11-11",
+      "Adres": "Lipinki 7",
+      "NumerTelefonu": "111222333",
+      "PESEL": "1234567890"
+    },
+    {
+      "Imie": "Anna",
+      "Nazwisko": "Kowalska",
+      "DataUrodzenia": "2002-12-02",
+      "Adres": "Krakusow 5",
+      "NumerTelefonu": "222333111",
+      "PESEL": "0987654321"
+    }
+  ],
+  "Lekarze": [
+    {
+      "IDlekarza": "0",
+      "Imie": "Karolina",
+      "Nazwisko": "Nowak",
+      "Specjalizacja": "Chirurg",
+      "NumerTelefonu": "333222333"
+    },
+    {
+      "IDlekarza": "1",
+      "Imie": "Adam",
+      "Nazwisko": "Pawlak",
+      "Specjalizacja": "Endokrynolog",
+      "NumerTelefonu": "111222111"
+    }
+  ],
+  "Wizyty": [
+    {
+      "IDwizyty": "0",
+      "Pacjent": {
+        "Imie": "Jan",
+        "Nazwisko": "Kowalski",
+        "DataUrodzenia": "2001-11-11",
+        "Adres": "Lipinki 7",
+        "NumerTelefonu": "111222333",
+        "PESEL": "1234567890"
+      },
+      "Lekarz": {
+        "IDlekarza": "1",
+        "Imie": "Adam",
+        "Nazwisko": "Pawlak",
+        "Specjalizacja": "Endokrynolog",
+        "NumerTelefonu": "111222111"
+      },
+      "DataWizyty": "2026-02-11T11:11:00",
+      "Diagnoza": null,
+      "Recepta": null
+    },
+    {
+      "IDwizyty": "1",
+      "Pacjent": {
+        "Imie": "Anna",
+        "Nazwisko": "Kowalska",
+        "DataUrodzenia": "2002-12-02",
+        "Adres": "Krakusow 5",
+        "NumerTelefonu": "222333111",
+        "PESEL": "0987654321"
+      },
+      "Lekarz": {
+        "IDlekarza": "0",
+        "Imie": "Karolina",
+        "Nazwisko": "Nowak",
+        "Specjalizacja": "Chirurg",
+        "NumerTelefonu": "333222333"
+      },
+      "DataWizyty": "2026-04-01T12:00:00",
+      "Diagnoza": null,
+      "Recepta": null
+    }
+  ]
+}
